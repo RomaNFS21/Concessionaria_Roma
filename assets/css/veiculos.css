@@ -3,6 +3,7 @@
 :root{
     --background-color1: black;
     --background-color2: #5e5e5e;
+    --background-color3: white;
     --font-color: #af924d;
     --font-color2:white;
     --shadow-color1: black;
@@ -47,20 +48,66 @@ body{
     color: var(--font-color2);
 }
 
-.hero{
-    background-color: var(--background-color2);
-    text-align: center;
-    padding: 15px 0px;
-}
-
-.hero h1{
-    font-size: 1.5em;
-    font-weight: 500;
-}
-
 /* MAIN */
 
+main{
+    background-color: var(--background-color2);
+}
 
+.menu-atalho{
+    background-color: var(--background-color2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-atalho a{
+    background-color: var(--background-color1);
+    color: var(--font-color);
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 3px solid var(--font-color);
+    padding: 7px;
+    margin: 15px 30px;
+}
+
+.lista-carros{
+    display: flex;
+    justify-content: center;
+    margin: 30px 30px;
+}
+
+.veiculo{
+    margin: 0px 20px;
+    background-color: var(--background-color3);
+    border-radius: 5px ;
+    border: 5px solid var(--font-color);
+}
+
+.veiculo img{
+    width: 400px;
+    height: 225px;
+}
+
+.veiculo h2{
+    display: flex;
+    justify-content: center;
+}
+
+.veiculo p{
+    display: flex;
+    justify-content: center;
+}
+
+.dados{
+    display: flex;
+    justify-content: center;
+}
+
+.dados p{
+    margin: 0px 10px;
+}
 
 /* FOOTER */
 

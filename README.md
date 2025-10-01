@@ -1,9 +1,9 @@
-- [ ]  3 páginas mínimas (Home/Sobre/Contato) + links funcionando.
-- [ ]  `header`, `nav`, `main`, `footer` usados com propósito.
-- [ ]  Hero na página principal
+- [X]  3 páginas mínimas (Home/Sobre/Contato) + links funcionando.
+- [X]  `header`, `nav`, `main`, `footer` usados com propósito.
+- [X]  Hero na página principal
 - [ ]  **Tabela** simples presente.
-- [ ]  Paleta no `:root` (variáveis CSS).
-- [ ]  Google Fonts.
+- [X]  Paleta no `:root` (variáveis CSS).
+- [X]  Google Fonts.
 - [ ]  Imagens otimizadas com `alt` descritivo.
 - [ ]  README com papéis, paleta, fontes e decisões.
 - [ ]  Site no ar.

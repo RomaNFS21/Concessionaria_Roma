@@ -47,17 +47,6 @@ body{
     color: var(--font-color2);
 }
 
-.hero{
-    background-color: var(--background-color2);
-    text-align: center;
-    padding: 15px 0px;
-}
-
-.hero h1{
-    font-size: 1.5em;
-    font-weight: 500;
-}
-
 /* MAIN */
 
 
