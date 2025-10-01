@@ -1,27 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+:root{
+    --background-color1: black;
+    --background-color2: #5e5e5e;
+    --font-color: #af924d;
+    --font-color2:white;
+    --shadow-color1: black;
+    --shadow-color2: #8a6c3b;
+    --shadow-color3: white;
+}
+
+body{
+    font-family: "Cinzel", serif;
+}
+
 /* HEADER */
 
 .menu{
     background-color: black;
-    color: goldenrod;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 30px 0px;
-    border-top: 6px solid goldenrod;
+    border-top: 6px solid var(--font-color);
+    padding: 0px 30px;
+}
+
+.logo-header{
+    width: 800px;
+}
+
+.logo-header img{
+    width: 250px;
 }
 
 .pages-menu a{
+    color: var(--font-color);
     font-size: 2em;
-    font-weight: 1000;
+    font-weight: 700;
+    text-shadow: 2px 2px 8px var(--shadow-color2);
     text-decoration: none;
     text-transform: uppercase;
     margin: 20px;
 }
 
+.pages-menu a:hover{
+    color: var(--font-color2);
+}
+
+.hero{
+    background-color: var(--background-color2);
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.hero h1{
+    font-size: 1.5em;
+    font-weight: 500;
+}
 
 /* MAIN */
 
-.Banner img{
+.banner{
+    background-color: var(--background-color2);
+}
+
+.banner img{
     width: 100%;
 }
 
+.boas-vindas{
+    background-color: var(--background-color2);
+    padding-top: 30px;
+}
+
+.boas-vindas h1{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+    padding-bottom: 20px;
+    padding: 0px 30px 20px 30px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.boas-vindas p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.25em;
+    text-align: center;
+    padding: 10px 30px;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    background-color: var(--background-color2);
+    padding: 10px 30px;
+}
+
+.botao a{
+    background-color: var(--background-color1);
+    color: var(--font-color);
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 3px solid var(--font-color);
+    padding: 7px;
+}
+
+/* FOOTER */
+
+.conteudo-footer{
+    background-color: var(--background-color1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 5px solid var(--font-color);
+    border-bottom: 5px solid var(--font-color);
+    padding: 10px 30px;
+}
+
+.logo-footer{
+    width: 300px;
+}
+
+.logo-footer img{
+    width: 25%;
+}
+
+.copyright p{
+    color: var(--font-color);
+    text-shadow: 2px 2px 8px var(--shadow-color2);
+    font-weight: 500;
+}
+
+.menu-footer{
+    width: 300px;
+    display: flex;
+    justify-content: space-around
+}
+
+.menu-footer a{
+    color: var(--font-color);
+    text-decoration: none;
+    font-weight: 500;
+    text-shadow: 2px 2px 8px var(--shadow-color2);
+    padding: 0px 10px;
+}
+
+.menu-footer a:hover{
+    color: var(--font-color2);
+    
+}
+
+.redes-sociais img{
+    width: 25px;
+    gap: 10px;
+}
