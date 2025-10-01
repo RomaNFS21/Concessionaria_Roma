@@ -1,0 +1,27 @@
+/* HEADER */
+
+.menu{
+    background-color: black;
+    color: goldenrod;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 0px;
+    border-top: 6px solid goldenrod;
+}
+
+.pages-menu a{
+    font-size: 2em;
+    font-weight: 1000;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+
+/* MAIN */
+
+.Banner img{
+    width: 100%;
+}
+
