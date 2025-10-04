@@ -112,6 +112,8 @@ body{
 }
 
 .botao a{
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
     background-color: var(--background-color1);
     color: var(--font-color);
     text-decoration: none;
@@ -170,4 +172,198 @@ body{
 .redes-sociais img{
     width: 25px;
     gap: 10px;
+}
+
+/* RESPONSIVIDADE */
+
+/* TABLET */
+@media screen and (min-width: 768px) and (max-width: 1023px)  {
+
+/*HEADER*/
+.menu{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 6px solid var(--font-color);
+    padding: 0px 30px;
+}
+
+.logo-header{
+    width: 364px;
+}
+
+.logo-header img{
+    width: 50%;
+}
+
+.pages-menu{
+    width: 364px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pages-menu a{
+    font-size: 1.5em;
+    display: grid;
+}
+
+.nav-menu a:hover{
+    color: var(--font-color2);
+}
+
+.hero{
+    background-color: var(--background-color2);
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.hero h1{
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+/* MAIN */
+
+.boas-vindas h1{
+    font-size: 1.5em;
+}
+
+.boas-vindas p{
+    font-size: 1em;
+}
+
+
+.destaques{
+    display: grid;
+    grid-column: 1fr;
+}
+
+.destaques img{
+    margin: 15px 15px;
+}
+
+/* FOOTER */
+
+.logo-footer{
+    width: 300px;
+}
+
+.logo-footer img{
+    width: 25%;
+}
+
+.copyright p{
+    font-size: 1em;
+    text-align: center;
+}
+
+.menu-footer{
+    width: 300px;
+    display: flex;
+    justify-content: space-around
+}
+
+.menu-footer a{
+    display: grid;
+    grid-column: 1fr;
+    margin: 5px 0px;
+}
+
+
+.redes-sociais img{
+    margin: 2px 0px;
+}
+
+}
+
+/* CELULAR */
+@media screen and (max-width: 767px)  {
+
+/*HEADER*/
+
+.logo-header{
+    width: auto;
+}
+
+.logo-header img{
+    width: 50%;
+}
+
+.pages-menu{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.pages-menu a{
+    font-size: 1em;
+    display: grid;
+}
+
+.hero{
+    background-color: var(--background-color2);
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.hero h1{
+    font-size: 1em;
+    font-weight: 500;
+}
+
+/* MAIN */
+
+.boas-vindas h1{
+    font-size: 1em;
+}
+
+.boas-vindas p{
+    font-size: .9em;
+}
+
+
+.destaques{
+    display: grid;
+    grid-column: 1fr;
+}
+
+.destaques img{
+    width: 280px;
+    margin: 15px 15px;
+}
+
+/* FOOTER */
+
+.logo-footer{
+    width: 150px;
+}
+
+.logo-footer img{
+    width: 75%;
+}
+
+.copyright p{
+    font-size: .8em;
+    text-align: center;
+}
+
+.menu-footer{
+    width: 300px;
+    display: flex;
+    justify-content: space-around
+}
+
+.menu-footer a{
+    font-size: .8em;
+    display: grid;
+    grid-column: 1fr;
+    margin: 3px 0px;
+}
+
+
+.redes-sociais img{
+    margin: 2px 0px;
+}
+
 }

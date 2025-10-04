@@ -51,6 +51,7 @@ body{
 /* MAIN */
 
 main{
+    font-family: 'Times New Roman', Times, serif;
     background-color: var(--background-color2);
 }
 
@@ -58,16 +59,20 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     margin: 30px;
 }
 
 .horario h2{
+    text-transform: uppercase;
     text-align: center;
+    font-size: 1.5em;
 }
 
 .horario li,ul{
+    font-size: 1.15em;
     text-align: center;
-    
+    padding-right: 15px;   
 }
 
 
@@ -92,12 +97,16 @@ main{
 }
 
 .contato h2{
+    text-transform: uppercase;
     text-align: center;
+    font-size: 1.5em;
 }
 
 .contato li,ul{
+    font-size: 1.15em;
     text-align: center;
-    
+    list-style-type: none;
+    padding-right: 15px;
 }
 
 /* FOOTER */
@@ -148,4 +157,16 @@ main{
 .redes-sociais img{
     width: 25px;
     gap: 10px;
+}
+
+/* RESPONSIVIDADE */
+
+/* TABLET */
+@media screen and (min-width: 768px) and (max-width: 1023px)  {
+
+}
+
+/* CELULAR */
+@media screen and (max-width: 767px)  {
+
 }
