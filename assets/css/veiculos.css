@@ -260,6 +260,28 @@ footer{
 
 /* MAIN */
 
+.menu-atalho{
+    display: grid;
+    grid-column: 1fr;
+    text-align: center;
+
+}
+
+.lista-carros{
+    display: grid;
+    grid-column: 1fr;
+    margin: 30px 30px;;
+}
+
+.veiculo{
+    margin: 15px 0px;
+}
+
+.lista-motos{
+    display: grid;
+    grid-column: 1fr;
+    margin: 30px 30px;
+}
 
 /* FOOTER */
 
@@ -320,15 +342,31 @@ footer{
 
 /* MAIN */
 
+.menu-atalho{
+    display: grid;
+    grid-column: 1fr;
+    text-align: center;
+
+}
+
 .lista-carros{
     display: grid;
     grid-column: 1fr;
-    
-    margin: 30px 30px;
+    margin: 30px 30px;;
+}
+
+.veiculo{
+    margin: 15px 0px;
 }
 
 .veiculo img{
+    width: 350px;
+}
 
+.lista-motos{
+    display: grid;
+    grid-column: 1fr;
+    margin: 30px 30px;
 }
 
 /* FOOTER */
