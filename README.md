@@ -20,6 +20,7 @@ Paleta de cores:
 - #8a6c3b Marrom (Sombras)
 
 para visualizar o projeto -> https://romanfs21.github.io/Concessionaria_Roma/contato.html
+para abrir localmente baixe os arquivos e abra o arquivo index.html 
 
 - [X]  3 páginas mínimas (Home/Sobre/Contato) + links funcionando.
 - [X]  `header`, `nav`, `main`, `footer` usados com propósito.
