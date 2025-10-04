@@ -11,8 +11,13 @@
     --shadow-color3: white;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: "Cinzel", serif;
+    background-color: var(--background-color2);
 }
 
 /* HEADER */
@@ -59,17 +64,46 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0px 30px;
+    padding: 180px 0px;
 }
 
-.menu-atalho a{
+.botoes-atalho:hover >:not(:hover){
+    opacity: 0.4;
+    transform: scale(0.7);
+}
+
+.sobre-botao{
+    transition: .35s;
+    cursor: pointer;
+}
+
+
+.menu-atalho button{
     background-color: var(--background-color1);
     color: var(--font-color);
     text-decoration: none;
+    font-size: 1.5em;
     font-weight: 500;
     border-radius: 5px;
     border: 3px solid var(--font-color);
-    padding: 7px;
-    margin: 15px 30px;
+    padding: 10px 40px;
+    margin: 30px 15px;
+    
+}
+
+.comeco-categoria{
+    background-color: black;
+    font-size: 30px;
+    color: var(--font-color);
+    margin: 0px 30px;
+    border: 3px solid var(--font-color);
+    padding: 10px 0px;
+
+}
+
+.comeco-categoria h1{
+    padding-left: 20px;
 }
 
 .lista-carros{
@@ -85,11 +119,13 @@ main{
     border: 5px solid var(--font-color);
 }
 
-.veiculo img{
-
+.lista-motos{
+    display: flex;
+    justify-content: center;
+    margin: 30px 30px;
 }
 
-.veiculo h2{
+.veiculo h1{
     display: flex;
     justify-content: center;
 }
@@ -108,7 +144,25 @@ main{
     margin: 0px 10px;
 }
 
+.opcoes-pagamentos{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    text-align: center;
+}
+
+tbody th,td{
+    background-color: black;
+    color: var(--font-color);
+    border: 3px solid var(--font-color);
+    padding: 10px 30px;
+}
+
 /* FOOTER */
+
+footer{
+    background-color: var(--background-color2);
+}
 
 .conteudo-footer{
     background-color: var(--background-color1);

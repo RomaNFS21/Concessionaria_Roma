@@ -12,6 +12,7 @@
 
 body{
     font-family: "Cinzel", serif;
+    background-color: var(--background-color2);
 }
 
 /* HEADER */
@@ -49,7 +50,55 @@ body{
 
 /* MAIN */
 
+main{
+    background-color: var(--background-color2);
+}
 
+.horario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px;
+}
+
+.horario h2{
+    text-align: center;
+}
+
+.horario li,ul{
+    text-align: center;
+    
+}
+
+
+.localizaçao-contato{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.localizaçao-contato iframe{
+    padding: 20px 30px;
+    width: 1500px;
+    height: 350px;
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px;
+}
+
+.contato h2{
+    text-align: center;
+}
+
+.contato li,ul{
+    text-align: center;
+    
+}
 
 /* FOOTER */
 

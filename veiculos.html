@@ -28,8 +28,13 @@
     <!--INICIO MAIN -->
     <main>
         <div class="menu-atalho">
-            <a href="">Carros</a>
-            <a href="">Motos</a>
+            <div class="botoes-atalho">
+                <a class="sobre-botao" href="#lista-carros"><button>Carros</button></a>
+                <a class="sobre-botao" href="#lista-motos"><button>Motos</button></a>
+            </div>
+        </div>
+        <div id="lista-carros" class="comeco-categoria">
+            <h1>Carros</h1>
         </div>
         <div class="lista-carros">
             <!--PRIMEIRA LINHA CARROS-->
@@ -71,7 +76,7 @@
         <div class="lista-carros">
             <div class="veiculo">
                 <img src="./assets/img/veiculos/Cadilac_Escalade.jpeg" alt="">
-                <h2>Ford Mustang</h2>
+                <h1>Ford Mustang</h1>
                 <p>R$300.000</p>
                 <div class="dados">
                     <p>2025</p>
@@ -104,7 +109,10 @@
             </div>
         </div>
         <!--PRIMEIRA LINHA MOTOS-->
-        <div class="lista-carros">
+        <div id="lista-motos" class="comeco-categoria">
+            <h1>Motos</h1>
+        </div>
+        <div class="lista-motos">
             <div class="veiculo">
                 <img src="./assets/img/veiculos/BMW_S1000RR.jpg" alt="">
                 <h2>Ford Mustang</h2>
@@ -140,7 +148,7 @@
             </div>
         </div>
         <!--SEGUNDA LINHA MOTOS-->
-        <div class="lista-carros">
+        <div class="lista-motos">
             <div class="veiculo">
                 <img src="./assets/img/veiculos/HarleyDavidson_StreetGlideUltra.jpg" alt="">
                 <h2>Ford Mustang</h2>
@@ -175,6 +183,28 @@
                 </div>
             </div>
         </div>
+        <div class="opcoes-pagamentos">
+            <table>
+                <tbody>
+                    <!--TITULO TABELA-->
+                    <tr>
+                        <th colspan="2">
+                            <h1>Formas de pagamento</h1>
+                        </th>
+                    </tr>
+                    <!--OPÇÕES DE PAGAMENTO-->
+                    <tr>
+                        <td><h2>A vista</h2></td>
+                        <td><h2>Parcelado</h2></td>
+                    </tr>
+                    <!--VALOR-->
+                    <tr>
+                        <td><p>10% Desconto</p></td>
+                        <td><p> Em até 3x Valor normal</p> <p>A partir de 4x 10% de juros</p></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </main>
     <!--INICIO FOOTER -->
     <footer>
@@ -198,6 +228,5 @@
             </div>
         </div>
     </footer>
-
 </body>
 </html>
